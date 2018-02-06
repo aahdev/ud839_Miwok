@@ -21,6 +21,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
 
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
+
+
+    // ****************************************************************************
+    // Button Behaviours
+    // *
+    // ****************************************************************************
 
         // Find the View that shows the numbers category
         TextView numbers = (TextView) findViewById(R.id.numbers);
@@ -46,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(numbersIntent);
             }
         });
+
 
         // Find the View that shows the family category
         TextView family = (TextView) findViewById(R.id.family);
@@ -92,6 +100,18 @@ public class MainActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(phrasesIntent);
+            }
+        });
+
+        // onClick Listener just for Tests
+        TextView tests = (TextView) findViewById(R.id.tests);
+
+        tests.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // HIER KOMMT MAL ZEUG ZUM TESTEN HIN!
+                Toast.makeText(view.getContext(),
+                        "Ich teste hier nur", Toast.LENGTH_SHORT).show();
             }
         });
     }

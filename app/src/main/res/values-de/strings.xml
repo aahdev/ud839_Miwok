@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Miwok</string>
+    <string name="category_phrases">Sätze</string>
+    <string name="category_colors">Farben</string>
+    <string name="category_numbers">Zahlen</string>
+    <string name="category_family">Familienmitglieder</string>
+</resources>

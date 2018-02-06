@@ -34,4 +34,7 @@
 
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#16AFCA</color>
+
+    <!-- Background color for TESTS -->
+    <color name="category_tests">#ef6700</color>
 </resources>

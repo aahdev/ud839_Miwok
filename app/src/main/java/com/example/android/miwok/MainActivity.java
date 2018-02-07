@@ -21,7 +21,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -103,16 +102,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // onClick Listener just for Tests
-        TextView tests = (TextView) findViewById(R.id.tests);
-
-        tests.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // HIER KOMMT MAL ZEUG ZUM TESTEN HIN!
-                Toast.makeText(view.getContext(),
-                        "Ich teste hier nur", Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 }

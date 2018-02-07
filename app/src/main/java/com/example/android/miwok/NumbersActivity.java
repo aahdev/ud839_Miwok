@@ -26,7 +26,7 @@ public class NumbersActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_numbers);
+        setContentView(R.layout.activity_sub);
 
         //**************************************************
         // Main
@@ -44,8 +44,8 @@ public class NumbersActivity extends AppCompatActivity {
         words.add(new Word("six", "temmokka"));
         words.add(new Word("seven", "kenekaku"));
         words.add(new Word("eight", "kawinta"));
-        words.add(new Word("nine", "wo'e"));
-        words.add(new Word("ten", "na'aacha"));
+        words.add(new Word("nine", "wo’e"));
+        words.add(new Word("ten", "na’aacha"));
 
 
         WordAdapter adapter = new WordAdapter(this, words);

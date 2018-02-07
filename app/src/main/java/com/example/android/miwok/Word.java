@@ -33,6 +33,7 @@ public class Word {
         return mImageSrc;
     }
 
+    // Test if Image exists
     public boolean hasImage() {
         return mImageSrc != NO_IMAGE_PROVIDED;
     }

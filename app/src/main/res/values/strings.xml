@@ -30,4 +30,5 @@
 
     <!-- Category name for TESTS [CHAR LIMIT=20] -->
     <string name="category_tests">TEST</string>
+    <string name="number_one">One</string>
 </resources>

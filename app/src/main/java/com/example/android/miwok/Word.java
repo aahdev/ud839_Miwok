@@ -7,17 +7,20 @@ public class Word {
     private String mMiwokTranslation;
     private String mDefaultTranslation;
     private int mImageSrc = NO_IMAGE_PROVIDED;
+    private int mAudioSrc;
 
     /* New Word Object */
-    public Word(String defaultTranslation, String miwokTranslation) {
+    public Word(String defaultTranslation, String miwokTranslation, int audioSrc) {
         mMiwokTranslation = miwokTranslation;
         mDefaultTranslation = defaultTranslation;
+        mAudioSrc = audioSrc;
     }
 
-    public Word(String defaultTranslation, String miwokTranslation, int imageSrc) {
+    public Word(String defaultTranslation, String miwokTranslation, int imageSrc, int audioSrc) {
         mMiwokTranslation = miwokTranslation;
         mDefaultTranslation = defaultTranslation;
         mImageSrc = imageSrc;
+        mAudioSrc = audioSrc;
     }
 
     /* Getter */
@@ -31,6 +34,10 @@ public class Word {
 
     public int getImageSrc() {
         return mImageSrc;
+    }
+
+    public int getAudioSrc() {
+        return mAudioSrc;
     }
 
     // Test if Image exists

@@ -1,7 +1,6 @@
 package com.example.android.miwok;
 
 import android.app.Activity;
-import android.media.MediaPlayer;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
@@ -52,13 +51,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
         // Miwok Word
         TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
         miwokTextView.setText(currentWord.getMiwokTranslation());
-        miwokTextView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mediaPlayer = MediaPlayer.create(getContext(), currentWord.getAudioSrc());
-                mediaPlayer.start();
-            }
-        });
 
         // Background Color
         View textArea = listItemView.findViewById(R.id.textarea);

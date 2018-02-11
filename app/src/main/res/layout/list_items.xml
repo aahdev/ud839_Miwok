@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/tan_background"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/list_item_height"
     android:minHeight="@dimen/list_item_height"
+    android:background="@color/tan_background"
     android:orientation="horizontal">
 
     <ImageView
@@ -16,8 +16,12 @@
         android:id="@+id/textarea"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
-        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
         android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/image_view"
         android:paddingLeft="16dp">
 
         <TextView
@@ -44,4 +48,12 @@
     </LinearLayout>
 
 
-</LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/play_arrow"
+        android:paddingRight="16dp" />
+
+</RelativeLayout>

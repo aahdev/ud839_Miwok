@@ -26,10 +26,7 @@
     <string name="category_numbers">Numbers</string>
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="category_family">Family Members</string>
-
-    <!-- Category name for TESTS [CHAR LIMIT=20] -->
-    <string name="category_tests">TEST</string>
+    <string name="category_family">Family</string>
 
     <string name="number_one">One</string>
 </resources>

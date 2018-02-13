@@ -37,4 +37,7 @@
 
     <!-- Background color for TESTS -->
     <color name="category_tests">#ef6700</color>
+
+    <!-- Tab fadded out -->
+    <color name="tab_fade">#A8A19E</color>
 </resources>

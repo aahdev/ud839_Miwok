@@ -4,7 +4,23 @@
     <string name="category_phrases">Sätze</string>
     <string name="category_colors">Farben</string>
     <string name="category_numbers">Zahlen</string>
-    <string name="category_family">Familienmitglieder</string>
-    <string name="category_tests">TEST</string>
+    <string name="category_family">Familie</string>
     <string name="number_one">Eins</string>
+    <string name="number_two">Zwei</string>
+    <string name="number_three">Drei</string>
+    <string name="number_four">Vier</string>
+    <string name="number_five">Fünf</string>
+    <string name="number_six">Sechs</string>
+    <string name="number_seven">Sieben</string>
+    <string name="number_eight">Acht</string>
+    <string name="number_nine">Neun</string>
+    <string name="number_ten">Zehn</string>
+    <string name="color_red">rot</string>
+    <string name="color_green">grün</string>
+    <string name="color_brown">braun</string>
+    <string name="color_gray">grau</string>
+    <string name="color_black">schwarz</string>
+    <string name="color_white">weiß</string>
+    <string name="color_dusty_yellow">staubig gelb</string>
+    <string name="color_mustard_yellow">senfgelb</string>
 </resources>

@@ -28,5 +28,26 @@
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family</string>
 
-    <string name="number_one">One</string>
+    <!-- Numbers -->
+    <string name="number_one">one</string>
+    <string name="number_two">two</string>
+    <string name="number_three">three</string>
+    <string name="number_four">four</string>
+    <string name="number_five">five</string>
+    <string name="number_six">six</string>
+    <string name="number_seven">seven</string>
+    <string name="number_eight">eight</string>
+    <string name="number_nine">nine</string>
+    <string name="number_ten">ten</string>
+
+    <!-- Colors -->
+    <string name="color_red">red</string>
+    <string name="color_green">green</string>
+    <string name="color_brown">brown</string>
+    <string name="color_gray">gray</string>
+    <string name="color_black">black</string>
+    <string name="color_white">white</string>
+    <string name="color_dusty_yellow">dusty yellow</string>
+    <string name="color_mustard_yellow">mustard yellow</string>
+
 </resources>
